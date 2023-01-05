@@ -127,3 +127,72 @@ body, html {
 #h1-3 {
     background-color: #FEEDCF;
 }
+/* Contribute styles */
+.contribute-item {
+    display: flex;
+    gap: 50px;
+}
+.contribute-1 {
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+.contribute-2 img {
+    background-repeat: no-repeat;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.good-1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.good-2 {
+    font-size: 16px;
+    color:#55938f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.good-3 {
+    padding: 18px 35px;
+    background-color: #E42256;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+.contribute-item-1 {
+    display: flex;
+    gap: 50px;
+}
+.contribute-3 img {
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 80%;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.contribute-4 {
+    margin-top: 50px;
+    margin-right: 200px;
+    text-align: center;
+}
+.good-item-1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.good-item-2 {
+    font-size: 16px;
+    color:#55938f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.good-item-3 {
+    padding: 18px 35px;
+    background-color: #E42256;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
