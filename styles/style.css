@@ -8,34 +8,36 @@ body, html {
 
 
 .header {
-    background-image: url('../images/donation1.jpg');
+    /* background-image: url('../images/donation1.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/donation1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    background-blend-mode: multiply;
 }
 .head-item {
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     padding-top: 200px;
     color: #fff;
-    font-weight: 900;
+    font-weight: 700;
 }
 .head-item-1 {
-    margin-top: 20px;
+    margin-top: 18px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: #E8E8E8;
 }
 .btn-primary {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
-    padding: 15px 30px;
+    padding: 10px 25px;
     height: 64px;
     border-radius: 5px;
     border: 0;
-    background: #FD6E0A;
+    background:#E98973;
     margin-top: 20px;
 }
 .header-container {
@@ -44,7 +46,7 @@ body, html {
 /* Main section style */
 .donate-item {
     text-align: center;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 50px;
     margin-top: 100px;
 }
@@ -110,8 +112,8 @@ body, html {
     opacity: 0.8;
 }
 .best-1 {
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -145,14 +147,16 @@ body, html {
     margin-bottom: 50px;
 }
 .good-1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
+    text-align: justify;
 }
 .good-2 {
     font-size: 16px;
     color:#55938f;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .good-3 {
     padding: 18px 35px;
@@ -160,6 +164,7 @@ body, html {
     border: 0;
     color: white;
     font-size: 20px;
+    margin-right: 170px;
 }
 .contribute-item-1 {
     display: flex;
@@ -182,12 +187,14 @@ body, html {
 .good-item-1 {
     font-size: 40px;
     font-weight: 900;
+    text-align: justify;
 }
 .good-item-2 {
     font-size: 16px;
     color:#55938f;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .good-item-3 {
     padding: 18px 35px;
@@ -195,4 +202,53 @@ body, html {
     border: 0;
     color: white;
     font-size: 20px;
+    margin-right: 140px;
+}
+.best-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.best-1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.best-2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #55938f;
+    padding-bottom: 30px;
+}
+.best-3 {
+    background: #EFE7BC;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 70px 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.best-4 {
+    background-color: #c1d5d4;
+    padding: 15px 30px;
+    border: 0;
+}
+.best-5 {
+    background-color: #E42256;
+    border: 0;
+    padding: 15px 30px;
+}
+.better-container {
+    background: #050A30;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.better-1 {
+    margin-bottom: 10px;
+    color:#E42256;
+}
+.better-2 {
+    margin-bottom: 30px;
+    color: rgb(230, 212, 212);
 }
